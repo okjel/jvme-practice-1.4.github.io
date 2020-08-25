@@ -1,0 +1,9 @@
+.page {
+    box-sizing: border-box;
+  
+    color: #1B1C21;
+    font-family: 'TT Lakes', sans-serif;
+    letter-spacing: -0.2px;
+    background-color: #fff;
+    font-weight: 500;
+}

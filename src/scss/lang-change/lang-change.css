@@ -1,0 +1,29 @@
+.lang-change {
+    display: flex;
+
+    list-style: none;
+}
+
+.lang-change__item {
+    margin-left: 7px;
+}
+
+.lang-change__item--active {
+    color: #7E7E82;
+}
+
+.lang-change__btn {
+    border: 0;
+    background-color: inherit;
+    color: inherit;
+    cursor: pointer;
+    transition: all 0.2s linear 0s;
+}
+
+.lang-change__btn:hover {
+    filter: drop-shadow(6px 6px 5px);
+    font-weight: bold;
+    font-size: 1.2em;
+    color: black;
+}
+

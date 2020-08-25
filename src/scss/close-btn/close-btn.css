@@ -1,0 +1,38 @@
+.close-btn {
+    display: flex;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+
+    background-color: #FF3E79;
+    border-radius: 50%;
+    border: 0;
+    cursor: pointer;
+    transition: all 0.2s linear 0s;
+}
+
+.close-btn::before,
+.close-btn::after {
+    display: block;
+    width: 22px;
+    height: 2px;
+    background-color: #fff;
+    border-radius: 1px;
+    content: "";
+}
+
+.close-btn::before {
+  transform: translateX(10px) rotate(45deg);
+}
+
+.close-btn::after {
+  transform: translateX(-10px) rotate(-45deg);
+}
+
+.close-btn:hover {
+    filter: drop-shadow(0 0 10px #41F6D7);
+    transform: scale(1.1);
+}

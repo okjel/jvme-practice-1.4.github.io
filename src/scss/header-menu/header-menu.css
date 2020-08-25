@@ -1,0 +1,12 @@
+.header-menu {
+    display: flex;
+    align-items: center;
+}
+
+.header-menu__close {
+    margin-right: 16px;
+}
+
+.header-menu__logo {
+    margin-right: auto;
+}
