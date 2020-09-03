@@ -1,0 +1,56 @@
+.button {
+    display: flex;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+
+    background-color: #FF3E79;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    border: 0;
+    cursor: pointer;
+    transition: all 0.2s linear 0s;
+}
+
+.button:hover {
+    filter: drop-shadow(0 0 10px #41F6D7);
+    transform: scale(1.1);
+}
+
+.button--theme_close::before,
+.button--theme_close::after {
+    display: block;
+    width: 22px;
+    height: 2px;
+    background-color: #fff;
+    border-radius: 1px;
+    content: "";
+}
+
+.button--theme_close::before {
+  transform: translateX(10px) rotate(45deg);
+}
+
+.button--theme_close::after {
+  transform: translateX(-10px) rotate(-45deg);
+}
+
+.button--theme_search {
+    background-image: url("../../img/search.svg");
+}
+
+.button--theme_call {
+    background-image: url("../../img/call.svg");
+}
+
+.button--theme_chat {
+    background-image: url("../../img/chat.svg");
+}
+
+.button--theme_profile {
+    background-image: url("../../img/profile.svg");
+}

@@ -1,5 +1,6 @@
 .contacts {
-    
+    display: flex;
+    flex-direction: column;
 }
 
 .contacts_email {
